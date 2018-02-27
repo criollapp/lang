@@ -23,8 +23,12 @@
   },
   "keywords": [
     "angular2",
-    "library",
-    "example"
+    "angular",
+    "lang",
+    "translate",
+    "language",
+    "module",
+    "library"
   ],
   "author": "Miguel Rivera",
   "repository" : {
