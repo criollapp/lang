@@ -1,0 +1,63 @@
+{
+  "name": "@criollapp/lang",
+  "main": "./bundles/ca-lang.umd.js",
+  "typings": "typings/public_api.d.ts",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "CALang Library",
+  "scripts": {
+    "build": "node build.js",
+    "copy-files": "cp package.json dist && cp readme.md dist",
+    "test": "ng test",
+    "coverage": "ng test --preserve-symlinks --code-coverage=true",
+    "ng": "ng",
+    "start": "ng serve",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "pack-lib": "npm pack ./dist",
+    "publish-lib": "npm publish ./dist",
+    "publish-lib:next": "npm publish --tag next ./dist",
+    "compodoc": "compodoc -p tsconfig.json",
+    "compodoc-serve": "compodoc -s",
+    "link": "npm link @x/common"
+  },
+  "keywords": [
+    "angular2",
+    "library",
+    "example"
+  ],
+  "author": "Miguel Rivera",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/criollapp/components.git"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.6.5",
+    "@angular/common": "^5.2.1",
+    "@angular/compiler": "^5.2.1",
+    "@angular/compiler-cli": "^5.2.1",
+    "@angular/core": "^5.2.1",
+    "@angular/platform-browser": "^5.2.1",
+    "@angular/platform-browser-dynamic": "^5.2.1",
+    "@types/jasmine": "^2.8.4",
+    "clean-css": "^4.1.9",
+    "html-minifier": "^3.5.8",
+    "jasmine-core": "^2.9.1",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage-istanbul-reporter": "^1.3.3",
+    "karma-jasmine": "^1.1.1",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "node-sass": "^4.7.2",
+    "rollup": "^0.54.1",
+    "rollup-plugin-angular": "^0.5.3",
+    "rollup-plugin-license": "^0.5.0",
+    "rollup-plugin-node-resolve": "^3.0.2",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-typescript2": "^0.10.0",
+    "shelljs": "^0.8.0"
+  },
+  "dependencies": {
+    "zone.js": "^0.8.20"
+  }
+}
