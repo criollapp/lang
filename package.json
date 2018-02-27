@@ -2,7 +2,7 @@
   "name": "@criollapp/lang",
   "main": "./bundles/ca-lang.umd.js",
   "typings": "typings/public_api.d.ts",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "license": "MIT",
   "description": "CALang Library",
   "scripts": {
