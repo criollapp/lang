@@ -4,7 +4,7 @@
   "typings": "typings/public_api.d.ts",
   "version": "1.0.3",
   "license": "MIT",
-  "description": "CALang Library",
+  "description": "This is an angular module that provides a set of tools for translate of applications.",
   "scripts": {
     "build": "node build.js",
     "copy-files": "cp package.json dist && cp readme.md dist",
