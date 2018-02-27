@@ -330,7 +330,7 @@ typescript({ useTsconfigDeclarationDir: true }),
     onwarn: () => { return },
     output: {
         format: 'umd',
-        name: 'ng.xLang',
+        name: 'ng.caLang',
         globals: globals,
         sourcemap: true,
         exports: 'named'
