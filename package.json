@@ -2,7 +2,7 @@
   "name": "@criollapp/lang",
   "main": "./bundles/ca-lang.umd.js",
   "typings": "typings/public_api.d.ts",
-  "version": "1.0.5",
+  "version": "1.0.12",
   "license": "MIT",
   "description": "This is an angular module that provides a set of tools for translate of applications.",
   "scripts": {
@@ -31,11 +31,13 @@
     "library"
   ],
   "author": "Miguel Rivera",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/criollapp/lang.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/criollapp/lang.git"
   },
-  "devDependencies": {
+  "dependencies": {
+    "@criollapp/common": "^1.0.12",
+    "zone.js": "^0.8.20",
     "@angular/cli": "^1.6.5",
     "@angular/common": "^5.2.1",
     "@angular/compiler": "^5.2.1",
@@ -60,8 +62,5 @@
     "rollup-plugin-sourcemaps": "^0.4.2",
     "rollup-plugin-typescript2": "^0.10.0",
     "shelljs": "^0.8.0"
-  },
-  "dependencies": {
-    "zone.js": "^0.8.20"
   }
 }

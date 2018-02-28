@@ -1,5 +1,5 @@
 import { CALang } from "../models/ca-lang.model";
-import {XObjectUtil} from '@x/common';
+import {CAObjectUtil} from '@criollapp/common';
 
 describe('CALang', ()=>{
   let model:CALang = new CALang({name: 'es', code: 'es_ES'});
@@ -14,7 +14,7 @@ describe('CALang', ()=>{
   });
 
   it('properties must have XJson decorator',()=>{
-    expect(XObjectUtil.objectHasProperties( model.getJsonObject(), ['name','code'] ) ).toBeTruthy();
+    expect(CAObjectUtil.objectHasProperties( model.getJsonObject(), ['name','code'] ) ).toBeTruthy();
   });
 
   it('attrs must have default value', ()=>{

@@ -1,9 +1,9 @@
-import {XModelAbstract, XJson} from '@x/common';
+import {CAModelAbstract, CAJson} from '@criollapp/common';
 
-export class CALang extends XModelAbstract
+export class CALang extends CAModelAbstract
 {
-  @XJson() public name:string;
-  @XJson() public code:string;
+  @CAJson() public name:string;
+  @CAJson() public code:string;
 
   constructor( args?:any )
   {

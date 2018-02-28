@@ -1,17 +1,17 @@
 import { Observable } from "rxjs/Observable";
-import {XStringResponse, XBooleanResponse, XModelArrayResponse} from '@x/common';
+import {CAStringResponse, CABooleanResponse, CAModelArrayResponse} from '@criollapp/common';
 
 export interface ICALangService
 {
-  getDefaultLang():Observable<XStringResponse>;
+  getDefaultLang():Observable<CAStringResponse>;
 
-  setDefaultLang(lang:string):Observable<XBooleanResponse>;
+  setDefaultLang(lang:string):Observable<CABooleanResponse>;
 
-  getCurrentLang():Observable<XStringResponse>;
+  getCurrentLang():Observable<CAStringResponse>;
 
-  setCurrentLang(lang:string):Observable<XBooleanResponse>;
+  setCurrentLang(lang:string):Observable<CABooleanResponse>;
 
-  getLangs():Observable<XModelArrayResponse>;
+  getLangs():Observable<CAModelArrayResponse>;
 
   getLabel(key:string, paramsObject?, lang?:string):Observable<string>;
 }
