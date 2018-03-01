@@ -2,7 +2,7 @@
   "name": "@criollapp/lang",
   "main": "./bundles/ca-lang.umd.js",
   "typings": "typings/public_api.d.ts",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "license": "MIT",
   "description": "This is an angular module that provides a set of tools for translate of applications.",
   "scripts": {
