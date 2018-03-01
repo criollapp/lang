@@ -1,5 +1,5 @@
 import {
-  CALangModule
+  CALangModule, ICALangService, CALang
 } from '../ca-lang';
 
 describe('CALang', () => {
