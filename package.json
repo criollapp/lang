@@ -2,7 +2,7 @@
   "name": "@criollapp/lang",
   "main": "./bundles/ca-lang.umd.js",
   "typings": "typings/public_api.d.ts",
-  "version": "1.0.18",
+  "version": "1.0.21",
   "license": "MIT",
   "description": "This is an angular module that provides a set of tools for translate of applications.",
   "scripts": {
@@ -36,7 +36,7 @@
     "url": "https://github.com/criollapp/lang.git"
   },
   "dependencies": {
-    "@criollapp/common": "^1.0.18",
+    "@criollapp/common": "^1.0.21",
     "zone.js": "^0.8.20",
     "@angular/cli": "^1.6.5",
     "@angular/common": "^5.2.1",
