@@ -36,7 +36,7 @@
     "url": "https://github.com/criollapp/lang.git"
   },
   "dependencies": {
-    "@criollapp/common": "^1.0.23",
+    "@criollapp/common": "^1.0.26",
     "zone.js": "^0.8.20",
     "@angular/cli": "^1.7.3",
     "@angular/common": "^5.2.9",
