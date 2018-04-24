@@ -9,6 +9,14 @@ describe('CALang', ()=>{
     expect( model.code ).toBe('es_ES');
   });
 
+  it('ES const have en value', ()=>{
+    expect( CALang.ES ).toBe('es');
+  });
+
+  it('EN const have en value', ()=>{
+    expect( CALang.EN ).toBe('en');
+  });
+
   it('must be extends XModelAbstract', ()=>{
     expect(model.id < 0).toBeTruthy();
   });
